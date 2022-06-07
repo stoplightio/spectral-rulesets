@@ -8,6 +8,7 @@ Keeping track of Spectral Rulesets in the wild, helping you build better, more c
 Helping you design and build better APIs.
 
 - [Adidas](https://github.com/adidas/api-guidelines/blob/master/.spectral.yml) - Adidas were one of the first companies to release their API Style Guide in a written guide _and_ a Spectral ruleset. Lots of good rules to try in here.
+- [APIs You Won't Hate](https://github.com/openapi-contrib/style-guides/blob/master/apisyouwonthate.yml) - A very opinionated collection of rules based on advice in the book Build APIs You Won't Hate, and from the community since.
 - [Box](https://github.com/box/box-openapi/blob/main/.spectral.yml) - Lots of [Custom Functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions) being used to enforce good practices that the Box API governance folks are interested in.
 - [Tranascom](https://github.com/transcom/mymove/blob/master/swagger-def/.spectral.yml) - Don't even think about using anything other than `application/json`.
 
