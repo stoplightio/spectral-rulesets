@@ -12,7 +12,7 @@ Helping you design and build better APIs.
 - [Box](https://github.com/box/box-openapi/blob/main/.spectral.yml) - Lots of [Custom Functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions) being used to enforce good practices that the Box API governance folks are interested in.
 - [Tranascom](https://github.com/transcom/mymove/blob/master/swagger-def/.spectral.yml) - Don't even think about using anything other than `application/json`.
 
-## Meta Rulesets
+## Lint Rulesets
 
 Helping you write better OpenAPI or AsyncAPI.
 
