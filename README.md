@@ -3,6 +3,13 @@
 Keeping track of Spectral Rulesets in the wild, helping you build better, more consistent APIs, via OpenAPI, AsyncAPI, JSON Schema, etc.
 
 
+## Functional Rulesets
+
+Helping the API conform to requirements of some particular standard or tooling requirements.
+
+- [AWS Gateway](https://github.com/andylockran/spectral-aws-apigateway-ruleset) - Made by [@andylockran](https://github.com/andylockran) to help avoid some of the quirks of AWS Gateway's OpenAPI compatibility. 
+- [OWASP API Security](https://github.com/stoplightio/spectral-owasp-ruleset) - Improve the security of your API by detecting common vulnerabilities as defined by OWASP and enforced with Spectral. 
+
 ## API Style Guides
 
 Rulesets focused on helping you design and build better APIs.
@@ -11,13 +18,6 @@ Rulesets focused on helping you design and build better APIs.
 - [APIs You Won't Hate](https://github.com/apisyouwonthate/style-guide) - An opinionated collection of rules based on advice in the book APIs You Won't Hate community. 
 - [Box](https://github.com/box/box-openapi/blob/main/.spectral.yml) - Lots of [Custom Functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions) being used to enforce good practices that the Box API governance folks are interested in.
 - [Tranascom](https://github.com/transcom/mymove/blob/master/swagger-def/.spectral.yml) - Don't even think about using anything other than `application/json`.
-
-## Functional Rulesets
-
-Helping the API conform to requirements of some particular standard or tooling requirements.
-
-- [AWS Gateway](https://github.com/andylockran/spectral-aws-apigateway-ruleset) - Made by [@andylockran](https://github.com/andylockran) to help avoid some of the quirks of AWS Gateway's OpenAPI compatibility. 
-- [OWASP API Security](https://github.com/stoplightio/spectral-owasp-ruleset) - Improve the security of your API by detecting common vulnerabilities as defined by OWASP and enforced with Spectral. 
 
 ## OpenAPI Style Guides
 
