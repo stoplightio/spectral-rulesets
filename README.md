@@ -3,23 +3,25 @@
 Keeping track of Spectral Rulesets in the wild, helping you build better, more consistent APIs, via OpenAPI, AsyncAPI, JSON Schema, etc.
 
 
-## Design Rulesets (a.k.a "API Style Guide")
+## API Style Guides
 
-Helping you design and build better APIs.
+Rulesets focused on helping you design and build better APIs.
 
 - [Adidas](https://github.com/adidas/api-guidelines/blob/master/.spectral.yml) - Adidas were one of the first companies to release their API Style Guide in a written guide _and_ a Spectral ruleset. Lots of good rules to try in here.
 - [APIs You Won't Hate](https://github.com/apisyouwonthate/style-guide) - An opinionated collection of rules based on advice in the book APIs You Won't Hate community. 
 - [Box](https://github.com/box/box-openapi/blob/main/.spectral.yml) - Lots of [Custom Functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions) being used to enforce good practices that the Box API governance folks are interested in.
 - [Tranascom](https://github.com/transcom/mymove/blob/master/swagger-def/.spectral.yml) - Don't even think about using anything other than `application/json`.
+
 ## Functional Rulesets
 
 Helping the API conform to requirements of some particular standard or tooling requirements.
 
 - [AWS Gateway](https://github.com/andylockran/spectral-aws-apigateway-ruleset) - Made by [@andylockran](https://github.com/andylockran) to help avoid some of the quirks of AWS Gateway's OpenAPI compatibility. 
+- [OWASP API Security](https://github.com/stoplightio/spectral-owasp-ruleset) - Improve the security of your API by detecting common vulnerabilities as defined by OWASP and enforced with Spectral. 
 
-## Lint Rulesets
+## OpenAPI Style Guides
 
-Helping you write better OpenAPI or AsyncAPI, but doesn't really tell you how to write the API itself.
+Rulesets helping you write better OpenAPI or AsyncAPI, but doesn't really tell you how to write the API itself.
 
 - [DigitalOcean](https://github.com/digitalocean/openapi/blob/main/spectral/ruleset.yml) - Keeping their OpenAPI nice and tidy, enforcing use of `$ref` (probably to minimize conflicts), naming conventions for Operation IDs, and all sorts of other handy OpenAPI tips.
 - [Nexmo](https://github.com/Nexmo/api-specification/blob/main/.spectral.yml) - Communication company (now part of Vonage) have some handy rules like enforcing SemVer, requiring properties to have an example, and determining a preferred order of HTTP method definitions.
