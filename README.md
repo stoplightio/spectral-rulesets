@@ -16,6 +16,7 @@ Rulesets focused on helping you design and build better APIs.
 
 Rulesets helping you write better OpenAPI or AsyncAPI, but doesn't really tell you how to write the API itself.
 
+- [Documentation](https://github.com/stoplightio/spectral-documentation) - Scan an OpenAPI description to make sure you're leveraging enough of its features to help documentation tools like Stoplight Elements, ReDoc, and Swagger UI build the best quality API Reference Documentation possible.
 - [Azure](https://github.com/Azure/azure-api-style-guide/blob/main/spectral.yaml) - Ruleset and complimentary style guide for creating OpenAPI 2 or 3 definitions of Azure services.
 - [DigitalOcean](https://github.com/digitalocean/openapi/blob/main/spectral/ruleset.yml) - Keeping their OpenAPI nice and tidy, enforcing use of `$ref` (probably to minimize conflicts), naming conventions for Operation IDs, and all sorts of other handy OpenAPI tips.
 - [Monite](https://github.com/team-monite/api-style-guide/blob/main/Guidelines.md) - A written API Style Guide being implemented bit at a time with create Spectral rules, with a brilliant [monite-language-non-inclusive](https://github.com/team-monite/api-style-guide/blob/main/spectral/monite.section2-language.yaml) rule.
