@@ -34,3 +34,5 @@ Guiding people to write APIs that conform to certain standards, or to work with 
 - [AWS Gateway](https://github.com/andylockran/spectral-aws-apigateway-ruleset) - Made by [@andylockran](https://github.com/andylockran) to help avoid some of the quirks of AWS Gateway's OpenAPI compatibility. 
 - [OWASP API Security](https://github.com/stoplightio/spectral-owasp-ruleset) - Improve the security of your API by detecting common vulnerabilities as defined by OWASP and enforced with Spectral. 
 - [URL Versioning](https://github.com/stoplightio/spectral-url-versioning) - API versioning can be a scary topic but there are a few easy wins that are always best avoided.
+
+Checkout more style guides at [API Stylebook](apistylebook.stoplight.io) by @stoplightio and [API Guidelines](https://dret.github.io/guidelines/) by @dret
