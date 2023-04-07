@@ -16,6 +16,7 @@ Rulesets focused on helping you design and build better APIs.
 
 Rulesets helping you write better OpenAPI or AsyncAPI, but doesn't really tell you how to write the API itself.
 
+- [Documentation](https://github.com/stoplightio/spectral-documentation) - Scan an OpenAPI description to make sure you're leveraging enough of its features to help documentation tools like Stoplight Elements, ReDoc, and Swagger UI build the best quality API Reference Documentation possible.
 - [Azure](https://github.com/Azure/azure-api-style-guide/blob/main/spectral.yaml) - Ruleset and complimentary style guide for creating OpenAPI 2 or 3 definitions of Azure services.
 - [DigitalOcean](https://github.com/digitalocean/openapi/blob/main/spectral/ruleset.yml) - Keeping their OpenAPI nice and tidy, enforcing use of `$ref` (probably to minimize conflicts), naming conventions for Operation IDs, and all sorts of other handy OpenAPI tips.
 - [Monite](https://github.com/team-monite/api-style-guide/blob/main/Guidelines.md) - A written API Style Guide being implemented bit at a time with create Spectral rules, with a brilliant [monite-language-non-inclusive](https://github.com/team-monite/api-style-guide/blob/main/spectral/monite.section2-language.yaml) rule.
@@ -33,3 +34,5 @@ Guiding people to write APIs that conform to certain standards, or to work with 
 - [AWS Gateway](https://github.com/andylockran/spectral-aws-apigateway-ruleset) - Made by [@andylockran](https://github.com/andylockran) to help avoid some of the quirks of AWS Gateway's OpenAPI compatibility. 
 - [OWASP API Security](https://github.com/stoplightio/spectral-owasp-ruleset) - Improve the security of your API by detecting common vulnerabilities as defined by OWASP and enforced with Spectral. 
 - [URL Versioning](https://github.com/stoplightio/spectral-url-versioning) - API versioning can be a scary topic but there are a few easy wins that are always best avoided.
+
+Checkout more style guides at [API Stylebook](apistylebook.stoplight.io) by @stoplightio and [API Guidelines](https://dret.github.io/guidelines/) by @dret
