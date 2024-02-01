@@ -11,7 +11,8 @@ Rulesets focused on helping you design and build better APIs.
 - [Box](https://github.com/box/box-openapi/blob/main/.spectral.yml) - Lots of [Custom Functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions) being used to enforce good practices that the Box API governance folks are interested in.
 - [Tranascom](https://github.com/transcom/mymove/blob/master/swagger-def/.spectral.yml) - Don't even think about using anything other than `application/json`.
 - [SPS Commerce](https://github.com/spscommerce/sps-api-standards) - Holistic and opinionated API style guide with documentation portal and associated sprectral ruleset.
-
+- [Zalando](https://github.com/baloise-incubator/spectral-ruleset) - Custom Spectral API Linter ruleset for Zalando RESTful API Guidelines. 
+ 
 ## OpenAPI Style Guides
 
 Rulesets helping you write better OpenAPI or AsyncAPI, but doesn't really tell you how to write the API itself.
