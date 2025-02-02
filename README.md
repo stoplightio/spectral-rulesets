@@ -10,7 +10,7 @@ Rulesets focused on helping you design and build better APIs.
 - [APIs You Won't Hate](https://github.com/apisyouwonthate/style-guide) - An opinionated collection of rules based on advice in the book APIs You Won't Hate community. 
 - [Box](https://github.com/box/box-openapi/blob/main/.spectral.yml) - Lots of [Custom Functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions) being used to enforce good practices that the Box API governance folks are interested in.
 - [Tranascom](https://github.com/transcom/mymove/blob/master/swagger-def/.spectral.yml) - Don't even think about using anything other than `application/json`.
-- [SPS Commerce](https://github.com/spscommerce/sps-api-standards) - Holistic and opinionated API style guide with documentation portal and associated sprectral ruleset.
+- [SPS Commerce](https://github.com/spscommerce/sps-api-standards) - Holistic and opinionated API style guide with documentation portal and associated spectral ruleset.
 
 ## OpenAPI Style Guides
 
